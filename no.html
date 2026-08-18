@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>No</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+
+        .contenido {
+            width: 90%;
+            max-width: 600px;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        button {
+            padding: 15px 35px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenido">
+
+        <!-- ESCRIBE AQUÍ TU SEGUNDA PREGUNTA -->
+        <h1>TU SEGUNDA PREGUNTA AQUÍ</h1>
+
+        <div class="botones">
+
+            <!-- SÍ → cambia al camino del SÍ -->
+            <button onclick="location.href='si.html'">
+                SÍ
+            </button>
+
+            <!-- NO → dos NO seguidos → FINAL DEL NO -->
+            <button onclick="location.href='final-no.html'">
+                NO
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
